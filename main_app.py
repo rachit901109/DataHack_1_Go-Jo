@@ -4,7 +4,7 @@ from dashboard1 import main as dashboard1
 from dashboard2 import main as dashboard2
 
 def main():
-    st.sidebar.title("Navigation")
+    st.sidebar.title("Dashboards")
     selected_dashboard = st.sidebar.radio("Go to", ("Dashboard 1", "Dashboard 2"))
 
     if selected_dashboard == "Dashboard 1":
