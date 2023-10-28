@@ -1,0 +1,28 @@
+Problem Statement:
+The Indian startup ecosystem has experienced remarkable growth and funding from 2018 to 2023, particularly
+in sectors like Artificial Intelligence (AI) and Electric Vehicles (EV). However, a comprehensive analysis of the market 
+trends and underlying factors driving this growth is needed. This problem statement aims to address the 
+challenges of conducting a detailed market analysis, identifying growth factors, deriving data-driven insights, 
+and developing an interactive dashboard using Streamlit. By addressing these challenges, participants will contribute 
+to a better understanding of the Indian startup ecosystem's growth in the AI and EV sectors, providing valuable insights 
+for entrepreneurs, investors, policymakers, and other stakeholders.You can use openly available news and/or any publicly 
+available datasets for performing this case study.
+
+
+
+1. What are the top 10 startups in terms of revenue over the last 5 years;
+2. Give a location-wise distribution of the top 100 startups;
+3. Give a comparison between Foreign and domestic funds and the sectors they are investing in;
+4. Valuation based analysis on Fintech companies over the last 5 years;
+5. How did Covid affect funding for startups across different sectors;
+6. Which sectors have had the most number of new and emerging startups;
+7. Compare the growth rate of start-ups with their age ;
+8. How do funding rounds affect the growth of startups;
+9. How has funding for different sectors, like EV evolved over time;
+10. Startups in which sectors have been stagnating or decreasing;
+
+To-do:
+1. Dataset for AI related indian startups (Scrape indiaai.gov.in)
+2. Dateset for EV related indian startups (not yet found)
+3. Metrics for evaluating a startup.
+4. data driven stream lit web app.
