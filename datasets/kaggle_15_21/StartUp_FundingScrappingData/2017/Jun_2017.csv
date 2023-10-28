@@ -1,0 +1,67 @@
+Sr. No.,Date(dd/mm/yyyy),Startup Name,Industry/ Vertical,Sub-Vertical,City / Location,Investors’ Name,InvestmentType,Amount (in USD)
+1,01/06/2017,Tripeur,Technology,Mobile based travel ERP platform,Bangalore,"Grace Grace Techno Ventures LLP, Rajul Garg & Other undisclosed investors",Seed Funding,N/A
+2,02/06/2017,RentOnGo,eCommerce,"Online Marketplace for Renting Bikes, Electronics & Appliances",Bangalore,TVS Motor Company,Seed Funding,"234,000"
+3,05/06/2017,Goomo,Consumer Internet,Online Travel & Holiday Booking platform,Mumbai,Emerging India,Private Equity,"50,000,000"
+4,05/06/2017,MaxMyWealth,Consumer Internet,Online Wealth Management & Savings platform,Mumbai,"blockchain ecosystem Global Advisors, Horseferry",Private Equity,N/A
+5,06/06/2017,Spinny,eCommerce,Online Used Car marketplace,Gurgaon,"Blume Ventures, Indian Angel Network, Kunal Shah, Sandeep Tandon",Private Equity,"1,000,000"
+6,06/06/2017,Healthbuds,Consumer Internet,Healthcare Discovery & booking platform,Kolkata,"Arun Patodia, Bharat Kedia",Seed Funding,N/A
+7,06/06/2017,Ftcash,Consumer Internet,Mobile Payments platform,Mumbai,"500 Startups, IvyCap Ventures",Private Equity,N/A
+8,06/06/2017,BHIVE Workspace,Consumer Internet,co-working spaces,Bangalore,Blume Ventures,Private Equity,"1,200,000"
+9,06/06/2017,wayForward,Consumer Internet,Mobile app for Mental Health,New Delhi,"Harsh Mahajan, Farhan Naqvi, Sreepathy Viswanathan",Seed Funding,"1,000,000"
+10,06/06/2017,GyanDhan,Consumer Internet,Education Marketplace,New Delhi,Sundaram Finance Holdings,Private Equity,N/A
+11,06/06/2017,Hungry Foal,Consumer Internet,For profit Social Venture,Gurgaon,SBI (Stand Up India Scheme),Private Equity,N/A
+12,07/06/2017,ZipLoan,Consumer Internet,Online lending platform,New Delhi,WaterBridge Ventures,Seed Funding,"650,000"
+13,07/06/2017,GrowFitter,Consumer Internet,health and fitness discovery platform,Mumbai,SQue Capital,Seed Funding,"600,000"
+14,08/06/2017,Stratfit,Consumer Internet,Health coaching programs,Hyderabad,Bodhtree Consulting Limited,Seed Funding,"232,000"
+15,08/06/2017,Multiplier Solutions,Technology,CRM Software for Healthcare space,Hyderabad,Norwest Venture Partners,Private Equity,"1,500,000"
+16,08/06/2017,ABI Health,Technology,Unified Digital Health Platform,Bangalore,Norwest Venture Partners,Private Equity,"1,500,000"
+17,08/06/2017,Stockal,Consumer Internet,App-based Investment advisory Services,Bangalore,"Mohan Alexander, R. Natarajan, Vikrant Varshney, Amit Sinha",Seed Funding,"350,000"
+18,09/06/2017,Guidoo,Consumer Internet,Travel & adventure planning platform,Mumbai,"Pawan Borle, Nirmal Singh, Manish Prasad, Vineet Varma, Nick Haulkoury, Abhai S. Rao",Seed Funding,"300,000"
+19,09/06/2017,eSahai.in,Consumer Internet,ambulance aggregator and medical taxi provider,Hyderabad,"Dr Ramesh Ayyala, Satya Muthyala",Seed Funding,"250,000"
+20,12/06/2017,Loanmeet,Consumer Internet,Online peer-to-peer lending platform,Bangalore,"Cao Yibin, Huang Wei, Madhusudan E,",Seed Funding,N/A
+21,12/06/2017,LendingKart,Consumer Internet,Online Lending platform,Ahmedabad,Yes Bank,Debt Funding,"7,800,000"
+22,12/06/2017,Boxx.ai,Technology,Artificial Intelligence,Bangalore,"Unicorn India Ventures, Venky Krishnakumar, Suresh Shankar, Vivek Bhargava",Private Equity,"500,000"
+23,12/06/2017,PeeSafe.in,Healthcare,Hygiene care product manufacturer,New Delhi,"Venture Catalysts, Alfa Capital, Green Shots Capital, Real Time Ventures",Private Equity,"1,000,000"
+24,12/06/2017,Vista Rooms,Consumer Internet,Online rooms aggregation platform,Mumbai,"Artha India Ventures, Singularity Holdings, Rajan Anandan, Girish Mathrubootham",Seed Funding,"776,000"
+25,12/06/2017,CoverFox,Consumer Internet,Online insurance brokerage platform,Mumbai,Transamerica,Private Equity,"15,000,000"
+26,13/06/2017,HyperTrack,Technology,Location tracking solutions,New Delhi,"Nexus Venture Partners, Founders Fund",Private Equity,N/A
+27,13/06/2017,Goodera,Technology,CSR and sustainability management platform,Bangalore,"Nexus Venture Partners, Omidyar Network",Private Equity,"5,500,000"
+28,13/06/2017,Digit,Technology,Tech driven Insurance platform,Bangalore,Fairfax Holdings,Private Equity,N/A
+29,14/06/2017,Ola,Consumer Internet,Cab Aggregation App,Bangalore,Tekne Capital Management LLC,Private Equity,"50,000,000"
+30,14/06/2017,Vanitycask,Consumer Internet,Beauty products discovery platform,Mumbai,RB Investments,Seed Funding,N/A
+31,14/06/2017,MrNeeds,Consumer Internet,Micro Food Delivery platform,Noida,undisclosed investors,Seed Funding,"500,000"
+32,15/06/2017,MoneyTap,Consumer Internet,Money Lending platform,Bangalore,"Sequoia India, NEA, Prime Venture Partners",Private Equity,"12,300,000"
+33,16/06/2017,Goodbox,eCommerce,Mobile SAAS  ECommerce platform for SMEs,Bangalore,"Nexus Venture Partners, Mekin Maheshwari",Private Equity,"1,000,000"
+34,16/06/2017,Fincash,Consumer Internet,Personal Finance platform,Mumbai,"Mohammed Khan, Sameer Narayan & Others",Seed Funding,"100,000"
+35,16/06/2017,PortDesk,Technology,Maritime Solutions,Noida,Alphard Maritime Group,Seed Funding,"2,000,000"
+36,16/06/2017,EdgeFx,eCommerce,DIY project Kits seller,Hyderabad,"Cross Border Angels & Experts, Rajasthan Angel Innovators Network, The Chennai Angels",Seed Funding,N/A
+37,16/06/2017,EazyDiner,Consumer Internet,Online Restaurant Reservation Platform,Gurgaon,YouWeCan Ventures,Seed Funding,N/A
+38,16/06/2017,HealthIntel,Healthcare,Online Pharmacy,New Delhi,BLIP Initiatives,Seed Funding,N/A
+39,19/06/2017,Unbxd,Technology,Cloud-based product discovery platform,Bangalore,Eight Roads Ventures,Private Equity,"12,500,000"
+40,19/06/2017,DarwinBox,Technology,Enterprise human resources management platform,Hyderabad,"Lightspeed India Partners, Endiya Partners, 3one4 Capital Advisors LLP, Startupxseed Ventures LLP",Private Equity,"4,000,000"
+41,20/06/2017,ForeverShop,Consumer Internet,Mobile based ecommerce platform,Bangalore,91maker.com,Seed Funding,"300,000"
+42,20/06/2017,Insider.in,Consumer Internet,Events Ticketing platform,Mumbai,Paytm,Private Equity,"5,200,000"
+43,21/06/2017,Fynd,eCommerce,Fashion etailer,Mumbai,"IIFL Seed Ventures, Kae Capital, FJ Labs, Singularity Ventures, GrowX, Tracxn Labs, Axis Capital",Private Equity,"2,400,000"
+44,21/06/2017,Grow Fit,Consumer Internet,Health-Tech platform,Bangalore,"Manipal Education and Medical Group (MEMG), SAR Group, The Grover Trust",Private Equity,"4,500,000"
+45,21/06/2017,Fabulyst,Technology,Artificial Intelligence based platform,Hyderabad,iBhubs,Seed Funding,"215,000"
+46,21/06/2017,mSwipe,Technology,Point-of-Sale services,Mumbai,"UC-RNT Fund, Matrix Partners, alcon Edge Capital, DSG Consumer Partners",Private Equity,"31,000,000"
+47,21/06/2017,OneAssist,Consumer Internet,Credit card fraud protection,Mumbai,Sequoia Capital,Private Equity,N/A
+48,22/06/2017,Julia Computing,Technology,Open Source Language for Data Science and Machine Learning,Bangalore,"General Catalyst, Founder Collective",Private Equity,"4,600,000"
+49,22/06/2017,Kissht,Consumer Internet,Consumer Lending platform,Mumbai,"Endiya Partners, Ventureast",Private Equity,"2,000,000"
+50,22/06/2017,Explore Life traveling,Consumer Internet,Local homes booking platform,Bangalore,"Mekin Maheshwari, Bharat Vijay, Krish Seshadri, Amar Arsikere",Seed Funding,"500,000"
+51,23/06/2017,Loantap,Consumer Internet,Lending platform for salaried professionals,Mumbai,"Kae Capital, India Quotient, IFMR, and MAS Financial Services Ltd",Private Equity,"4,000,000"
+52,23/06/2017,Voxweb,Consumer Internet,Mobile based social networking platform,Mumbai,Undisclosed investors,Seed Funding,"1,000,000"
+53,26/06/2017,HUG Innovations,Technology,Gesture based  Smartwatch manufacturer,Hyderabad,"Mohit Srivastav, Kishore Ganji, Venkat Vallabhaneni, Rajeev Menon",Private Equity,"5,000,000"
+54,26/06/2017,Flipkart,eCommerce,Online marketplace,Bangalore,Naspers,Private Equity,"71,000,000"
+55,26/06/2017,V Resorts,Consumer Internet,Holiday & Vacation resort aggregator,Noida,"Seedfund, RB International",Private Equity,"4,000,000"
+56,27/06/2017,Stashfin,Consumer Internet,Personal Finance App,New Delhi,"Snow Leopard Ventures, Alto Partners",Private Equity,"5,000,000"
+57,27/06/2017,Formcept,Consumer Internet,Unified Data Analysis platform,Bangalore,Gujarat Venture Finance Ltd,Private Equity,N/A
+58,27/06/2017,Spares Hub,eCommerce,Automobile parts marketplace,Pune,"The Chennai Angels, Anthill Scale Ventures, Esvee Technologies Inc, Inc95 Consulting",Seed Funding,"311,000"
+59,28/06/2017,FiTraQ,Consumer Internet,Fitness Centre Discovery Platform,New Delhi,"Aparup Sengupta, Devendra Reddy,",Seed Funding,N/A
+60,28/06/2017,Rubique,Consumer Internet,Online Marketplace for financial products,Mumbai,"Kalaari Capital, Udayan Goyal",Private Equity,"3,000,000"
+61,28/06/2017,Niki.ai,Consumer Internet,AI Based Personal Assistant,Bangalore,"SAP.iO, Unilazer Ventures",Private Equity,"2,000,000"
+62,29/06/2017,Fitpass,Consumer Internet,Online Fitness Marketplace,New Delhi,"Abhinav Bindra, Gaurav Marya",Private Equity,"1,000,000"
+63,29/06/2017,ZingHR,Technology,"digital employee solutions,",Mumbai,Zeta,Private Equity,N/A
+64,30/06/2017,Tagos Design,Technology,in-video discovery platform,Bangalore,Undisclosed Investors,Private Equity,"5,000,000"
+65,30/06/2017,UrbanClap,Consumer Internet,Mobile Services Marketplace,Gurgaon,"Vy Capital, SAIF Partners, Accel Partner, Bessemer Venture Partners",Private Equity,"21,000,000"
+66,30/06/2017,,,,,,,
