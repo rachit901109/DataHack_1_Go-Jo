@@ -5,6 +5,9 @@ from dashboard3 import main as dashboard3
 from dashboard4 import main as dashboard4
 from dashboard5 import main as dashboard5
 from dashboard6 import main as dashboard6
+from question1 import main as question1
+# from question2 import main as question2
+# from question3 import main as question3
 from query import query
 
 def main():
@@ -17,44 +20,55 @@ def main():
 
     st.title("DataWiz - Dashboard Hub")
 
-    st.sidebar.title("Dashboards")
+    st.sidebar.title("Sections")
 
-    # Create an expander for Dashboards
-    with st.sidebar.expander("Select Dashboard"):
-        dashboard_options = {
-            "Startup Funding Insights": "Explore insights into startup funding.",
-            "Top Funding Amounts": "Discover the top funding amounts for startups.",
-            "Top Investors and Sectors by Total Funding Amount": "See top investors and sectors by total funding.",
-            "Funding Trend Over the Years": "Visualize the funding trend over the years.",
-            "Number of New Startups Formed Each Year": "Explore the number of new startups each year.",
-            "Total Funding in each region": "View total funding in each region.",
+    # Create an expander for Sections
+    with st.sidebar.expander("Select Section"):
+        section_options = {
+            "Dashboards": ["Startup Funding Insights", "Top Funding Amounts",
+                           "Top Investors and Sectors by Total Funding Amount",
+                           "Funding Trend Over the Years",
+                           "Number of New Startups Formed Each Year",
+                           "Total Funding in each region"],
+            "Questions": ["Question 1", "Question 2", "Question 3"],
         }
 
-        selected_dashboard = st.radio("Go to", list(dashboard_options.keys()))
+        selected_section = st.radio("Go to", list(section_options.keys()))
 
-        # Display description of the selected dashboard
-        st.write(f"**Dashboard Description:** {dashboard_options[selected_dashboard]}")
+        if selected_section == "Dashboards":
+            selected_dashboard = st.selectbox("Select Dashboard", section_options[selected_section])
+            st.write(f"**Dashboard Description:** {dashboard_options[selected_dashboard]}")
+        elif selected_section == "Questions":
+            selected_question = st.selectbox("Select Question", section_options[selected_section])
+            st.write(f"**Question Description:** {question_options[selected_question]}")
 
     # Flag to determine if chatbot section should be displayed
     show_chatbot_section = st.sidebar.button("Chatbot and Table")
 
-    # Display selected dashboard or chatbot section
+    # Display selected dashboard, question, or chatbot section
     if not show_chatbot_section:
-        if selected_dashboard == "Startup Funding Insights":
-            dashboard1()
-        elif selected_dashboard == "Top Funding Amounts":
-            dashboard2()
-        elif selected_dashboard == "Top Investors and Sectors by Total Funding Amount":
-            dashboard3()
-        elif selected_dashboard == "Funding Trend Over the Years":
-            dashboard4()
-        elif selected_dashboard == "Number of New Startups Formed Each Year":
-            dashboard5()
-        elif selected_dashboard == "Total Funding in each region":
-            dashboard6()
-    # else:
-    #     query()
-    query()
+        if selected_section == "Dashboards":
+            if selected_dashboard == "Startup Funding Insights":
+                dashboard1()
+            elif selected_dashboard == "Top Funding Amounts":
+                dashboard2()
+            elif selected_dashboard == "Top Investors and Sectors by Total Funding Amount":
+                dashboard3()
+            elif selected_dashboard == "Funding Trend Over the Years":
+                dashboard4()
+            elif selected_dashboard == "Number of New Startups Formed Each Year":
+                dashboard5()
+            elif selected_dashboard == "Total Funding in each region":
+                dashboard6()
+        elif selected_section == "Questions":
+            if selected_question == "Question 1":
+                question1()
+            # elif selected_question == "Question 2":
+            #     question2()
+            # elif selected_question == "Question 3":
+            #     question3()
+    else:
+        query()
 
 if __name__ == "__main__":
     main()
