@@ -8,7 +8,7 @@ def main():
     # Assuming df_startup is already defined and contains the necessary data
     # If not, load your data and perform the required processing
     # Load data
-    file_path = r"C:\Users\VARUN\Desktop\DataHack\startup_funding_all_years.csv"
+    file_path = r"startup_funding_all_years.csv"
     df_startup = pd.read_csv(file_path)
 
     # Group the DataFrame by 'HeadQuarter' and calculate the total funding amount received by startups in each region

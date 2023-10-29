@@ -5,7 +5,7 @@ import plotly.express as px
 
 def main():
     # Load data
-    file_path = r"C:\Users\VARUN\Desktop\DataHack\startup_funding_all_years.csv"
+    file_path = r"startup_funding_all_years.csv"
     df = pd.read_csv(file_path)
 
     st.title("Interactive Dashboard 2: Top Funding Amounts")

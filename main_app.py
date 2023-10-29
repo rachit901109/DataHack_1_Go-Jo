@@ -5,7 +5,7 @@ from dashboard3 import main as dashboard3
 from dashboard4 import main as dashboard4
 from dashboard5 import main as dashboard5
 from dashboard6 import main as dashboard6
-from query import chatbot_response, query, load_data
+from query import query
 
 def main():
     st.set_page_config(

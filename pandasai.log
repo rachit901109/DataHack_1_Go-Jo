@@ -1,0 +1,497 @@
+2023-10-29 04:41:52 [INFO] Question: Type your question here...
+2023-10-29 04:41:52 [INFO] Running PandasAI with openai LLM...
+2023-10-29 04:41:52 [INFO] Prompt ID: bfecdf11-8829-475e-b1c6-3f00195fb092
+2023-10-29 04:41:52 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Hush - Speak Up. Make ...,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy...,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy...,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Drivezy...,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+The Souled Store...,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 04:41:52 [INFO] error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2023-10-29 04:51:06 [INFO] Question: Type your question here...
+2023-10-29 04:51:06 [INFO] Running PandasAI with openai LLM...
+2023-10-29 04:51:06 [INFO] Prompt ID: b281b2b3-dc18-4bc5-9254-d4c61774f2b0
+2023-10-29 04:51:06 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 04:51:07 [INFO] error_code=invalid_api_key error_message='Incorrect API key provided: sk-Nq1EE***************************************tRQh. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-10-29 04:52:43 [INFO] Question: Type your question here...
+2023-10-29 04:52:43 [INFO] Running PandasAI with openai LLM...
+2023-10-29 04:52:43 [INFO] Prompt ID: 48ddc581-add4-4e2e-8ba2-617a7ae74b5a
+2023-10-29 04:52:43 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Hush - Speak Up. Make ...,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Drivezy...,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Happy Cow Dairy...,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy...,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+The Souled Store...,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 04:52:43 [INFO] error_code=invalid_api_key error_message='Incorrect API key provided: sk-Nq1EE***************************************tRQh. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-10-29 04:59:01 [INFO] Question: Type your question here...
+2023-10-29 04:59:01 [INFO] Running PandasAI with openai LLM...
+2023-10-29 04:59:01 [INFO] Prompt ID: e655bde1-edf1-4ca7-9217-0d1e9c619606
+2023-10-29 04:59:01 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Happy Cow Dairy,Mumbai,"Agriculture, Farming",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+The Souled Store,Mumbai,"Fashion, Graphic Design, Wearables",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Freyr Energy,Hyderabad,"Energy, Environmental Consulting, Renewable Energy, Solar",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, Mobile Apps, Software",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sharing Economy",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 04:59:02 [INFO] error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2023-10-29 04:59:39 [INFO] Question: Type your question here...
+2023-10-29 04:59:39 [INFO] Running PandasAI with openai LLM...
+2023-10-29 04:59:39 [INFO] Prompt ID: bab4ddce-b1ee-4687-b7ba-f5629735c8d2
+2023-10-29 04:59:39 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Hush - Speak Up. Make ...,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy...,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy...,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+The Souled Store...,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy...,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 04:59:39 [INFO] error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2023-10-29 05:02:01 [INFO] Question: Type your question here...
+2023-10-29 05:02:01 [INFO] Running PandasAI with openai LLM...
+2023-10-29 05:02:01 [INFO] Prompt ID: a68fd315-7999-472a-b1d2-cb09374b0da5
+2023-10-29 05:02:01 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:02:01 [INFO] error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2023-10-29 05:15:09 [INFO] Question: Type your question here...
+2023-10-29 05:15:09 [INFO] Running PandasAI with openai LLM...
+2023-10-29 05:15:09 [INFO] Prompt ID: 3c4fe006-6bf1-4037-9a5f-51fa88ecce85
+2023-10-29 05:15:09 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:15:10 [INFO] error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2023-10-29 05:38:06 [INFO] Question: Type your question here...
+2023-10-29 05:38:06 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 05:38:06 [INFO] Prompt ID: 04ae39bc-3fb2-4359-abdb-e6d0f7b1bad7
+2023-10-29 05:38:06 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Hush - Speak Up. Make ...,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy...,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy...,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+The Souled Store...,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy...,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:38:36 [INFO] Question: Type your question here...
+2023-10-29 05:38:36 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 05:38:36 [INFO] Prompt ID: 580864e4-dea1-4d82-959e-90fa6285abf5
+2023-10-29 05:38:36 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:41:51 [INFO] Question: Type your question here...
+2023-10-29 05:41:51 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 05:41:51 [INFO] Prompt ID: d827ae35-7702-4519-bdc9-933d661be030
+2023-10-29 05:41:51 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```

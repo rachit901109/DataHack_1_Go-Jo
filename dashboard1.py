@@ -5,11 +5,15 @@ import plotly.express as px
 
 def load_and_preprocess_data():
     # Load datasets from 2018 to 2021
-    data_2018 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2018.csv")
-    data_2019 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2019.csv")
-    data_2020 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2020.csv")
-    data_2021 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2021.csv")
+    # data_2018 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2018.csv")
+    # data_2019 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2019.csv")
+    # data_2020 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2020.csv")
+    # data_2021 = pd.read_csv(r"C:\Users\VARUN\Desktop\DataHack\2018_2021_funding\startup_funding2021.csv")
 
+    data_2018 = pd.read_csv(r"datasets\kaggle_18_21\startup_funding2018.csv")
+    data_2019 = pd.read_csv(r"datasets\kaggle_18_21\startup_funding2019.csv")
+    data_2020 = pd.read_csv(r"datasets\kaggle_18_21\startup_funding2020.csv")
+    data_2021 = pd.read_csv(r"datasets\kaggle_18_21\startup_funding2021.csv")
     # Concatenate datasets
     all_data = pd.concat([data_2018, data_2019, data_2020, data_2021], ignore_index=True)
 
