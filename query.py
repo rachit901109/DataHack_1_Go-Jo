@@ -48,6 +48,8 @@ def display_data_and_response(data, question):
     # if chatbot_reply is none assign a default value of no answer
     if chatbot_reply is None:
         chatbot_reply = "Answer not found. Sorry!"
+    
+    print("this is reply",chatbot_reply)
     st.markdown(f"_{chatbot_reply}_")
 
 # Main function

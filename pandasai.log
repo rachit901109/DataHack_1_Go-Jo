@@ -495,3 +495,297 @@ Take a deep breath and reason step-by-step. Act as a senior data analyst.
 In the answer, you must never write the "technical" names of the tables.
 Based on the last message in the conversation:
 - return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:56:01 [INFO] Question: Type your question here...
+2023-10-29 05:56:01 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 05:56:01 [INFO] Prompt ID: 1b8db7d0-cf18-47ff-ac09-eea03450b743
+2023-10-29 05:56:01 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 05:59:23 [INFO] Question: Type your question here...
+2023-10-29 05:59:23 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 05:59:23 [INFO] Prompt ID: 8a03635c-8e53-4658-b0c6-92944b6bfff6
+2023-10-29 05:59:23 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 06:00:27 [INFO] Question: Type your question here...
+2023-10-29 06:00:27 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 06:00:27 [INFO] Prompt ID: b05c20dd-37e3-4d37-9fa8-df2a89d6256a
+2023-10-29 06:00:27 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 06:03:44 [INFO] Question: Type your question here...
+2023-10-29 06:03:44 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 06:03:44 [INFO] Prompt ID: 0c6d262a-4f04-401a-9f12-56adf9879b09
+2023-10-29 06:03:44 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Happy Cow Dairy,Mumbai,"Agriculture, Farming",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, Mobile Apps, Software",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+The Souled Store,Mumbai,"Fashion, Graphic Design, Wearables",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sharing Economy",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Freyr Energy,Hyderabad,"Energy, Environmental Consulting, Renewable Energy, Solar",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+</dataframe>
+
+<conversation>
+User: Type your question here...
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 06:04:05 [INFO] Question: say hi
+2023-10-29 06:04:05 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 06:04:05 [INFO] Prompt ID: ccd8a2d0-24ce-4f22-8de6-df07e9f25a28
+2023-10-29 06:04:05 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+</dataframe>
+
+<conversation>
+User: say hi
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```
+2023-10-29 06:06:13 [INFO] Question: give list of first five HeadQuarter
+2023-10-29 06:06:13 [INFO] Running PandasAI with falcon LLM...
+2023-10-29 06:06:13 [INFO] Prompt ID: c4b52c11-6783-4c62-a480-db86a41e5890
+2023-10-29 06:06:13 [INFO] Using prompt: You are provided with the following pandas DataFrames:
+
+<dataframe>
+Dataframe dfs[0], with 2567 rows and 8 columns.
+This is the metadata of the dataframe dfs[0]:
+Company/Brand,HeadQuarter,Sector,What it does,Investor,Amount($),Stage,Year
+Drivezy,Bengaluru,"Automotive, Rental, Sh...",Drivezy is India's lar...,Undisclosed,100000000.0,Debt Financing,2018
+Freyr Energy,Hyderabad,"Energy, Environmental ...",Freyr Energy is a comp...,Undisclosed,1500000.0,Series A,2018
+Happy Cow Dairy,Mumbai,"Agriculture, Farming...",A startup which aggreg...,Undisclosed,584795.0,Seed,2018
+Hush - Speak Up. Make Work Better,Bengaluru,"Communities, Leisure, ...",Enabling diversity of ...,Undisclosed,657895.0,Seed,2018
+The Souled Store,Mumbai,"Fashion, Graphic Desig...",The Souled Store bring...,Undisclosed,3000000.0,Venture - Series Unknown,2018
+</dataframe>
+
+<conversation>
+User: give list of first five HeadQuarter
+</conversation>
+
+This is the initial python function. Do not change the params. Given the context, use the right dataframes.
+```python
+# TODO import all the dependencies required
+import pandas as pd
+
+def analyze_data(dfs: list[pd.DataFrame]) -> dict:
+    """
+    Analyze the data, using the provided dataframes (`dfs`).
+    1. Prepare: Preprocessing and cleaning data if necessary
+    2. Process: Manipulating data for analysis (grouping, filtering, aggregating, etc.)
+    3. Analyze: Conducting the actual analysis (if the user asks to plot a chart you must save it as an image in temp_chart.png and not show the chart.)
+    At the end, return a dictionary of:
+    - type (possible values "string", "number", "dataframe", "plot")
+    - value (can be a string, a dataframe or the path of the plot, NOT a dictionary)
+    Examples: 
+        { "type": "string", "value": f"The highest salary is {highest_salary}." }
+        or
+        { "type": "number", "value": 125 }
+        or
+        { "type": "dataframe", "value": pd.DataFrame({...}) }
+        or
+        { "type": "plot", "value": "temp_chart.png" }
+    """
+```
+
+Take a deep breath and reason step-by-step. Act as a senior data analyst.
+In the answer, you must never write the "technical" names of the tables.
+Based on the last message in the conversation:
+- return the updated analyze_data function wrapped within ```python ```

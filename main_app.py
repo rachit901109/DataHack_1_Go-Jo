@@ -52,8 +52,9 @@ def main():
             dashboard5()
         elif selected_dashboard == "Total Funding in each region":
             dashboard6()
-    else:
-        query()
+    # else:
+    #     query()
+    query()
 
 if __name__ == "__main__":
     main()
